@@ -1,6 +1,6 @@
 # Jenkins Integration with Visual TOM
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE.md)&nbsp;
-[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)  
+[![fr](https://img.shields.io/badge/lang-fr-yellow.svg)](README-fr.md)  
 This project provides an integration between **Visual TOM** and **Jenkins** to trigger Jenkins jobs from Visual TOM jobs using the `jenkins-cli.jar` tool.
 
 # Disclaimer
