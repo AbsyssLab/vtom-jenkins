@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Domain name="DEJIMA" stamp="VTEXPORT : 7.2.1e FR NT64 2025/02/18 Visual Tom (c) Absyss" version="7.2.1e" generationDate="Fri May 30 21:23:50 2025">
+  <Queues>
+    <Queue name="queue_jenkins" comment=""/>
+  </Queues>
+  <JobApplicationServers>
+    <JobApplicationServer id="JASac1241832f6a1505682c499200000001" name="JENKINS" comment="" type="GENERIC">
+      <Properties>
+        <Property key="VTCUSTOM_DEFAULT_QUEUE" value="queue_jenkins"/>
+        <Property key="VTCUSTOM_FIELDS.0.NAME" value="JOB_NAME"/>
+        <Property key="VTCUSTOM_FIELDS.0.TYPE" value="character"/>
+        <Property key="VTCUSTOM_FIELDS.0.VISIBLE" value="true"/>
+        <Property key="VTCUSTOM_FIELDS_COUNT" value="1"/>
+        <Property key="VTCUSTOM_ICON_NAME" value="jenkins.svg"/>
+      </Properties>
+    </JobApplicationServer>
+  </JobApplicationServers>
+</Domain>
