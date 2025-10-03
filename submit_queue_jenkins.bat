@@ -12,7 +12,7 @@ time /T
 
 echo _______________________________________________________________________
 
-rem Mode TEST
+rem TEST Mode
 
 if "%TOM_JOB_EXEC%" == "TEST" (
 
@@ -75,5 +75,6 @@ echo Exit [%RETCODE%] donc acquittement
 if not "%TOM_LOG_ACTION%"==" " call Gestlog_wnt.bat
 
 exit %RETCODE%
+
 
 :FIN
