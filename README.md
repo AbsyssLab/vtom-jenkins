@@ -37,6 +37,29 @@ It takes one argument corresponding to the Jenkins job name.
 
 The queue script **submit_queue_jenkins.bat** must be deployed and declared on the Windows agent.
 
+# Available Actions
+
+## Global Objective
+The batch queue encapsulates the execution of the jenkins-cli.jar binary with the build argument, which allows triggering a Jenkins job.
+
+## Arguments
+In the model, only one input parameter is required: the name of the Jenkins job.
+
+The build Command Allows You To:
+- ➡️ Trigger a Jenkins job
+- ➡️ Optionally pass parameters
+- ➡️ Wait for the build to complete
+- ➡️ Control the behavior (logs, failures, timeouts, etc.)
+
+## Résultat du job	Code CLI
+
+| Job Result | CLI Exit Code |
+| ---------- | ------------- |
+| SUCCESS    | 0             |
+| FAILURE    | ≠ 0           |
+| ABORTED    | ≠ 0           |
+| TIMEOUT    | ≠ 0           |
+
 # License
 This project is licensed under the Apache 2.0 License - see the [LICENSE](license) file for details
 
