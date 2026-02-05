@@ -31,6 +31,31 @@ Le fichier **jenkins.xml** correspond au modèle de traitement Jenkins à import
 
 La queue **submit_queue_jenkins.bat** à positionner et à déclarer sur l'agent Windows.
 
+# Actions disponibles
+
+## Objectif global
+La queue batch encapsule l'exécution du binaire jenkins-cli.jar avec l'argument build qui permet de déclencher un job Jenkins
+
+## Arguments
+
+Dans le modèle un seul paramètre en entrée est nécessaire : le nom du job Jenkins
+
+La commande build permet de :
+- ➡️ déclencher un job Jenkins
+- ➡️ éventuellement passer des paramètres
+- ➡️ attendre la fin du build
+- ➡️ contrôler le comportement (logs, échec, délais…)
+
+## Résultat du job	Code CLI
+
+| Job Result | CLI Exit Code |
+| ---------- | ------------- |
+| SUCCESS    | 0             |
+| FAILURE    | ≠ 0           |
+| ABORTED    | ≠ 0           |
+| TIMEOUT    | ≠ 0           |
+
+
 # Licence
 Ce projet est sous licence Apache 2.0. Voir le fichier [LICENCE](license) pour plus de détails.
 
